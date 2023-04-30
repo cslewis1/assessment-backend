@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: black;
+}
+
+h1{
+    margin-top: 20px;
+    color: #a85662;
+}
+
+#resultImg {
+    width: 100%;
+    height: 40vh;
+    margin-top: 20px;
+    border: 5px solid #40171d;
+}
+
+#resultDiv{
+    width: 60vw;
+    height: 8vh;
+    margin-top: 5%;
+    color: #a85662;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.compFortuneBtns{
+    width: 100%;
+    height: 5vh;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 20px
+}
+
+.compFortuneBtns button{    
+    background-color: #a85662;
+    border: 1px solid black;
+    font-weight: bolder;
+    width: 20%;
+    height: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+}
