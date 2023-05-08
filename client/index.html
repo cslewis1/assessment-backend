@@ -6,13 +6,29 @@
   </head>
   <body class="container">
     <h1>"!!!INSPIRE, HELP, ENCOURAGE!!!"</h1>
-    <img id="resultImg" src="http://wallup.net/wp-content/uploads/2016/06/23/383074-New_Zealand-landscape.jpg" alt="">
+    <img
+      id="resultImg"
+      src="http://wallup.net/wp-content/uploads/2016/06/23/383074-New_Zealand-landscape.jpg"
+      alt=""
+    />
     <div id="resultDiv"></div>
 
     <section class="compFortuneBtns">
       <button id="complimentButton">Get A Compliment</button>
       <button id="fortuneBtn">See Your Fortune</button>
     </section>
+
+    <section class="userQuotes">
+      <p>Enter your favorite inspirational quote:</p>
+      <form action="">
+        <input type="text" id="quote" placeholder="Enter a quote" />
+        <button id="submit">Submit Quote</button>
+        <!-- <button id="submit2">Update Quote</button> -->
+      </form>
+    </section>
+    <h2>Inspirational Quotes</h2>
+
+    <section id="quoteList"></section>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>

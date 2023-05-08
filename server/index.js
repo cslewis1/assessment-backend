@@ -7,16 +7,14 @@ app.use(cors());
 
 app.use(express.json());
 
-const { getCompliment } = require("./controller");
+const { getCompliment, getFortune, getImage, getUserList, createQuote,deleteQuote } = require("./controller");
 
 app.get("/api/compliment", getCompliment);
-
-const { getFortune } = require("./controller");
-
 app.get("/api/fortune", getFortune);
-
-const { getImage } = require("./controller");
-
 app.get("/api/images", getImage);
+app.get("/api/userList", getUserList);
+app.post("/api/userList", createQuote)
+app.delete("/api/userList/:quote_id", deleteQuote)
+
 
 app.listen(4000, () => console.log("Server running on 4000"));

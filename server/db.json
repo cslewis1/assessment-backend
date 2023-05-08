@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "fortune": "Do not let ambitions overshadow small success.",
+        "imageUrl": "https://www.pixelstalk.net/wp-content/uploads/2016/06/Download-hd-nature-wallpaper.jpg",
+        "quote": "Real change, enduring change, happens one step at a time."
+    },
+
+    {   
+        "id": 2,
+        "fortune":  "When someone tells me ‘no,’ it doesn’t mean I can’t do it, it simply means I can’t do it with them",
+        "imageUrl":"https://wallpapercave.com/wp/9KxfB3a.jpg",
+        "quote": "Do not underestimate yourself. Human beings have unlimited potentials."
+    },
+    {
+        "id": 3,
+        "fortune":  "Your talents will be recognized and suitably rewarded.",
+        "imageUrl": "http://wallup.net/wp-content/uploads/2016/06/23/383074-New_Zealand-landscape.jpg",
+        "quote": "Do not let anyone ever tell you who you are."
+    },
+    {
+        "id": 4,
+        "fortune": "If you continually give, you will continually have.",
+        "imageUrl": "https://th.bing.com/th/id/OIP._1bBi_9uXGwl--wRH_HSTQHaEq?w=245&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "quote": "Start each day with a positive thought and a grateful heart."
+    },
+    {
+        "id": 5,
+        "fortune": "It’s not the amount of time you devote, but what you devote to the time that counts.",
+        "imageUrl": "https://th.bing.com/th/id/OIP.ZaSf7GzYb3lmQzzGwXNG4gHaEK?w=320&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "quote": "Success is not how high you have climbed, but how you make a positive difference to the world."
+    },
+    {
+        "id": 6,
+        "fortune": "You will travel far and wide, both pleasure and business.",
+        "imageUrl": "https://cdn.wallpapersafari.com/80/51/CUD6lu.jpg",
+        "quote": "Do not fear failure but rather fear not trying."
+    }
+]
