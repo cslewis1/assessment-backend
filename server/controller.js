@@ -14,7 +14,8 @@ let userList = [
   },
 ];
 
-let id = userList.length
+let id = userList.length;
+let userRating = [1];
 
 module.exports = {
   getCompliment: (req, res) => {
@@ -70,7 +71,7 @@ module.exports = {
 
   createQuote: (req, res) => {
     id++;
-    let newListItem = { ...req.body, id:id };
+    let newListItem = { ...req.body, id: id };
     userList.push(newListItem);
     res.status(200).send(userList);
   },
@@ -83,5 +84,14 @@ module.exports = {
       }
     }
     res.status(200).send(userList);
+  },
+
+  updateRating: (req, res) => {
+    const { type } = req.body;
+    console.log(type);
+    console.log(userRating);
+    type === "plus" && userRating[0]<=10 ? userRating[0]++ 
+      : userRating[0]--;
+    res.status(200).send(userRating);
   },
 };

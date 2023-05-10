@@ -12,7 +12,7 @@
   align-items: center;
   margin-left: 5%;
   margin-right: 5%;  
- background-color: black; 
+  background-color: black;
 }
 
 h1{
@@ -66,8 +66,8 @@ form{
   margin-right: auto;
 }
 
-input {
-  width: 80%;
+#quote {
+  width: 70%;
   height: 50%;
 }
 
@@ -109,10 +109,44 @@ h2{
   padding: 2px;
   border-radius: 10%;
   font-weight: bold;
+  margin-right: 20px;
 }
+
+input [type=checkbox]{
+  width: 20px;
+} 
 
 .userQuotes p{
   margin-top: 2%;
   font-size: 30px;
   color: #a85662;
+}
+
+#ratings{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 20px;
+  color: #a85662;
+}
+
+#siteRating{
+  font-size: 30px;
+}
+
+.ratingsBtns{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #a85662;
+}
+
+#plus, #minus{
+  background-color: #a85662;
+  padding: 5px;
+  border-radius: 10%;
+  font-weight: bold;
 }
