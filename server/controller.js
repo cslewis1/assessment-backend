@@ -15,7 +15,7 @@ let userList = [
 ];
 
 let id = userList.length;
-let userRating = [1];
+let userRating = [0];
 
 module.exports = {
   getCompliment: (req, res) => {
@@ -90,8 +90,11 @@ module.exports = {
     const { type } = req.body;
     console.log(type);
     console.log(userRating);
-    type === "plus" && userRating[0]<=10 ? userRating[0]++ 
-      : userRating[0]--;
+    if (type === "plus" && userRating[0] < 10) {
+      userRating[0]++
+    } else if (type === "minus" && userRating[0] > 0) {
+      userRating[0]--;
+    }
     res.status(200).send(userRating);
   },
 };
